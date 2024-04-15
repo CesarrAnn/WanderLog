@@ -1,0 +1,176 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background-color: #f2efdc;
+    min-width: 400px;
+}
+a{
+    text-decoration: none;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+
+.header {
+    background-color: #EEF5FF;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.lista-header {
+    display: flex;
+    gap: 50px;
+}
+
+.lista-header a {
+    color: black;
+    font-weight: 700;
+}
+
+/* Principal */
+
+.section-principal {
+    display: flex;
+    background-color: #D0E4FF;
+}
+
+.section-frase {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Sobre Nosotros */
+
+.section-sobreNosotros {
+    background-color: #004AAD;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.sobreNosotros {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+/* Planes */
+
+.section-planes {
+    background-color: #EEF5FF;
+    padding: 30px;
+    text-align: center;
+}
+.section-planes h2 {
+    margin-bottom: 20px;
+}
+.planes {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   justify-content: center;
+}
+.content-plan {
+    width: 600px;
+    background-color: #AFD1FF;
+    padding: 35px;
+    margin-top: -30px;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Noticias */
+
+.section-noticias {
+    background-color: #E6E0F8;
+    padding: 30px;
+}
+.content-noticias {
+    text-align: center;
+}
+.content-noticias h1 {
+    margin-bottom: 15px;
+}
+.noticias {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.correo form {
+    margin-bottom: 10px;
+
+}
+.correo form input {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+button {
+    border: none;
+    padding: 10px 30px;
+    background-color: #F3F7FC;
+    border-radius: 20px;
+    
+}
+
+/* Contacto */
+
+.section-contacto {
+    padding: 50px;
+    background-color: #EEF5FF;
+}
+.contacto {
+    width: 80%;
+    margin: 0 auto;
+}
+.title-contacto {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.content-contacto {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* footer  */
+
+.section-footer {
+    padding: 50px;
+    background-color: #004AAD;
+    color: white
+}
+.content-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+.testimonialesRedes {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.copy {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
